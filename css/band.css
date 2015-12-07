@@ -1,0 +1,33 @@
+html {
+  font-family: sans-serif;
+}
+.header {
+  background-color: #dcf5ee;
+}
+
+ul {
+  list-style: none;
+}
+
+.sidebar {
+  float: right;
+  width: 25%;
+  background-color: #eedcf5;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  height: 50%;
+}
+
+.albums {
+  float: left;
+  display: inline-block;
+  background-color: #dcf5ee;
+}
+
+.albums img {
+  width: 100px;
+  height: 90px;
+}
