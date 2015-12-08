@@ -1,10 +1,13 @@
 body {
   font-family: sans-serif;
-  background-color: #f1e8d7;
+  background-color: #25705A;
 }
 .header {
   text-align: center;
-  background-color: #9edec6;
+  background-color: #003827;
+  color: #70A897;
+  padding: 5px;
+  margin-bottom: 2%;
 }
 
 .header h3 {
@@ -15,10 +18,26 @@ img {
   width: 90%;
 }
 
-.column {
+.before, .during, .after {
   text-align: center;
   float: left;
-  width: 30%;
+  width: 28%;
   height: 200%;
-  background-color: #c4ebdc;
+  color: #003827;
+  padding: 1%;
+}
+
+.before {
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: #0E543F;
+}
+
+.during {
+  background-color: #468C77;
+}
+.after {
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: #70A897;
 }
