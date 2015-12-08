@@ -3,6 +3,8 @@ html {
 }
 .header {
   background-color: #dcf5ee;
+  padding: 0 3% 3% 3%;
+  border: 1px #b4eadb solid;
 }
 
 ul {
@@ -11,23 +13,33 @@ ul {
 
 .sidebar {
   float: right;
-  width: 25%;
+  width: 20%;
   background-color: #eedcf5;
+  padding: 1%;
+  border: 1px #dbb4ea solid;
 }
 
 .column {
   float: left;
-  width: 25%;
+  width: 23%;
   height: 50%;
+  padding: .5%;
 }
 
 .albums {
   float: left;
   display: inline-block;
   background-color: #dcf5ee;
+  border: 1px #b4eadb solid;
 }
 
-.albums img {
+img {
+  float: inherit;
+  padding: 2%;
   width: 100px;
   height: 90px;
+}
+
+.album {
+  font-weight: bold;
 }
